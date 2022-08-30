@@ -7,7 +7,7 @@ import toDoContext from "../../../context/ToDoContext";
 export default function ToDoList() {
     const { data, updateToDo, deleteToDo } = useContext(toDoContext)
 
-    console.log(data)
+    // console.log(data)
 
     return (
         <List>
